@@ -39,5 +39,5 @@ Thumbs.db
 # Added by me #
 ###############
 
-.Rproj
-.csv
+*.Rproj
+*.csv
