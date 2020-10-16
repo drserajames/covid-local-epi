@@ -1,0 +1,10 @@
+name: covid-local-epi
+title:
+username:
+account: drserajames
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2113582
+bundleId: 3480874
+url: https://drserajames.shinyapps.io/covid-local-epi/
+when: 1596688617.13501
