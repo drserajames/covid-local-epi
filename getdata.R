@@ -38,7 +38,7 @@ utla[[8]][[3]] <- utla[[8]][[3]][-4]
 
 # load latest data
 
-phe_cases <- as.data.frame(read_csv("https://c19downloads.azureedge.net/downloads/csv/coronavirus-cases_latest.csv"))
+phe_cases <- as.data.frame(read_csv("https://coronavirus.data.gov.uk/downloads/csv/coronavirus-cases_latest.csv"))
 phe_date <- seq(min(as.Date(phe_cases[,"Specimen date"])), max(as.Date(phe_cases[,"Specimen date"])),1)
 
 phe_data <- NULL
